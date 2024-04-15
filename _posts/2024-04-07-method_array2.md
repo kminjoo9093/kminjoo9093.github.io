@@ -66,7 +66,7 @@ typora-root-url: ../
 
 <img src="/images/2024-04-07-method_array2/image-20240410144417789.png" alt="image-20240410144417789" style="zoom:50%;" />
 
-<span style="font-size:85%; color:orangered">=> 필터와 매핑의 결과를 각각 변수에 저장하지 않고 필터링한 값에 map메서드를 바로 사용하여 배열을 만든다</span>
+<span style="font-size:85%; color:orangered">=> 필터와 매핑의 결과를 각각 변수에 저장한 위의 방법과 달리 필터링한 값에 map메서드를 바로 사용하여 배열을 만든다</span>
 
 <br>
 
@@ -94,7 +94,7 @@ typora-root-url: ../
 
 
 
-<span style="font-size:85%">배열 내의 모든 요소가 every() 메서드를 통해 테스트를 거쳐서 참, 거짓을 반환하는데</span>
+: <span style="font-size:85%">배열 내의 모든 요소가 every() 메서드를 통해 테스트를 거쳐서 참, 거짓을 반환하는데</span>
 
 <span style="font-size:85%; color:orangered">요소 중 하나라도 콜백에서 거짓을 반환하면 전체 every가 거짓이 됨</span>
 
@@ -118,7 +118,7 @@ typora-root-url: ../
 
 
 
-<span style="font-size:85%">배열 요소 중 하나 또는 일부가 테스트를 통과하는지의 여부를 판단</span>
+: <span style="font-size:85%">배열 요소 중 하나 또는 일부가 테스트를 통과하는지의 여부를 판단</span>
 
 <span style="font-size:85%; color:orangered">배열 중 참인 요소가 하나 이상이면 참을 반환</span>
 
@@ -180,7 +180,7 @@ typora-root-url: ../
 
 <img src="/images/2024-04-07-method_array2/image-20240410174335185.png" alt="image-20240410174335185" style="zoom:50%;" />
 
-<span style="font-size:85%">=> 처음에는 500이 total에 인수로, 700이 price에 인수로 전달되어 둘을 합한다</span>
+<span style="font-size:85%">=> 처음에는 500이 total에, 700이 price에 인수로 전달되어 둘을 합한다</span>
 
 <span style="font-size:85%"> 두번째 순환에서 500과 700을 합한 1200이 total로, 450이 price가 되어 둘을 합하며</span>
 
