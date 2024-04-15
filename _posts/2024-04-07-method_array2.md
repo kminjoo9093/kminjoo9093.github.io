@@ -50,7 +50,7 @@ typora-root-url: ../
 
 
 
-<span style="font-size:85%">[ 평점이 높은 영화 제목 ]</span>
+<span style="font-size:85%">[ 평점이 높은 영화 제목 ]</span><br>
 
 <img src="/images/2024-04-07-method_array2/image-20240415004828355.png" alt="image-20240415004828355" style="zoom:50%;" />
 
@@ -66,7 +66,7 @@ typora-root-url: ../
 
 <br>
 
-<img src="/images/2024-04-07-method_array2/image-20240410144417789.png" alt="image-20240410144417789" style="zoom:50%;" />
+<img src="/images/2024-04-07-method_array2/image-20240410144417789.png" alt="image-20240410144417789" style="zoom:50%;" /><br>
 
 <span style="font-size:85%; color:orangered">=> 필터와 매핑의 결과를 각각 변수에 저장하지 않고 필터링한 값에 map메서드를 바로 사용하여 배열을 만든다</span>
 
@@ -80,7 +80,7 @@ typora-root-url: ../
 
 >  #### some(), every()
 
-
+<br>
 
 <span style="font-size:85%">불리언 메서드로 어떠한 특성을 테스트할 수 있는 방법</span>
 
@@ -92,7 +92,7 @@ typora-root-url: ../
 
 
 
-#### every()
+#### every()<br>
 
 
 
@@ -102,7 +102,7 @@ typora-root-url: ../
 
 <br>
 
-<span style="font-size:90%; font-weight:bold">[ every()와 화살표 함수 활용 연습]</span>
+<span style="font-size:90%; font-weight:bold">[ every()와 화살표 함수 활용 연습]</span><br>
 
 <img src="/images/2024-04-07-method_array2/image-20240410153003393.png" alt="image-20240410153003393" style="zoom:50%;" />
 
@@ -116,7 +116,7 @@ typora-root-url: ../
 
 <br>
 
-#### some()
+#### some()<br>
 
 
 
@@ -126,7 +126,7 @@ typora-root-url: ../
 
 <br>
 
-**<span style="font-size:90%">[ some()와 화살표 함수 활용 연습]</span>**
+**<span style="font-size:90%">[ some()와 화살표 함수 활용 연습]</span>**<br>
 
 <img src="/images/2024-04-07-method_array2/image-20240410153655805.png" alt="image-20240410153655805" style="zoom:50%;" />
 
@@ -148,7 +148,9 @@ typora-root-url: ../
 
 <br>
 
->  #### reduce()
+
+
+>  #### reduce()<br>
 
 
 
