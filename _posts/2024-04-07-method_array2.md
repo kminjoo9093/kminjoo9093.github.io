@@ -46,11 +46,13 @@ typora-root-url: ../
 
 <span style="font-size:85%">=> 개봉일이 2020년도 이후인 최신 영화를 필터링한 결과 2022년도에 개봉한 스파이더맨이 추출된 배열이 생김</span>
 
-<bt>
+<br>
 
 
 
 <span style="font-size:85%">[ 평점이 높은 영화제목 ]</span>
+
+<br>
 
 <img src="/images/2024-04-07-method_array2/image-20240415004828355.png" alt="image-20240415004828355" style="zoom:50%;" />
 
