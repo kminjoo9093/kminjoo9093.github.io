@@ -50,17 +50,19 @@ typora-root-url: ../
 
 
 
-<span style="font-size:85%">[ 평점이 높은 영화 제목 ]</span><br>
+<span style="font-size:85%">[ 평점이 높은 영화제목 ]</span>
 
 <img src="/images/2024-04-07-method_array2/image-20240415004828355.png" alt="image-20240415004828355" style="zoom:50%;" />
 
-<img src="/images/2024-04-07-method_array2/image-20240410143513407.png" alt="image-20240410143513407" style="zoom:50%;" />
+<img src="/images/2024-04-07-method_array2/image-20240410143513407.png" alt="image-20240410143513407" style="zoom:50%;" /><br>
 
 <span style="font-size:85%">=> filter()를 사용해서 평점이 90점 이상인 영화를 변수 goodMovies에 저장한 후, </span>
 
 <span style="font-size:85%"> map()을 사용해서 goodMovies의 영화 제목들로 이뤄진 배열을 추출한다.</span>
 
 <span style="font-size:85%">필터한 결과를 변수에 저장하고, 매핑의 결과값도 변수에 저장하여 만드는 방법으로 과정이 복잡하다</span>
+
+<br>
 
 <br>
 
@@ -78,7 +80,7 @@ typora-root-url: ../
 
 
 
->  #### some(), every()
+> #### some(), every()
 
 <br>
 
