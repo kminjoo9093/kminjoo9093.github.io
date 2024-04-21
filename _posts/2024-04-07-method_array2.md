@@ -46,11 +46,11 @@ typora-root-url: ../
 
 <span style="font-size:85%">=> 개봉일이 2020년도 이후인 최신 영화를 필터링한 결과 2022년도에 개봉한 스파이더맨이 추출된 배열이 생김</span>
 
-<bt>
+<br>
 
 
 
-<span style="font-size:85%">[ 평점이 높은 영화 제목 ]</span><br>
+<span style="font-size:85%">[ 평점이 높은 영화제목 ]</span>
 
 <img src="/images/2024-04-07-method_array2/image-20240415004828355.png" alt="image-20240415004828355" style="zoom:50%;" />
 
@@ -64,11 +64,9 @@ typora-root-url: ../
 
 <br>
 
-<br>
+<img src="/images/2024-04-07-method_array2/image-20240410144417789.png" alt="image-20240410144417789" style="zoom:50%;" />
 
-<img src="/images/2024-04-07-method_array2/image-20240410144417789.png" alt="image-20240410144417789" style="zoom:50%;" /><br>
-
-<span style="font-size:85%; color:orangered">=> 필터와 매핑의 결과를 각각 변수에 저장하지 않고 필터링한 값에 map메서드를 바로 사용하여 배열을 만든다</span>
+<span style="font-size:85%; color:orangered">=> 필터와 매핑의 결과를 각각 변수에 저장한 위의 방법과 달리 필터링한 값에 map메서드를 바로 사용하여 배열을 만든다</span>
 
 <br>
 
@@ -78,9 +76,9 @@ typora-root-url: ../
 
 
 
->  #### some(), every()
-
-<br>
+> #### some(), every()
+>
+> 
 
 <span style="font-size:85%">불리언 메서드로 어떠한 특성을 테스트할 수 있는 방법</span>
 
@@ -92,17 +90,17 @@ typora-root-url: ../
 
 
 
-#### every()<br>
+#### every()
 
 
 
-<span style="font-size:85%">배열 내의 모든 요소가 every() 메서드를 통해 테스트를 거쳐서 참, 거짓을 반환하는데</span>
+: <span style="font-size:85%">배열 내의 모든 요소가 every() 메서드를 통해 테스트를 거쳐서 참, 거짓을 반환하는데</span>
 
 <span style="font-size:85%; color:orangered">요소 중 하나라도 콜백에서 거짓을 반환하면 전체 every가 거짓이 됨</span>
 
 <br>
 
-<span style="font-size:90%; font-weight:bold">[ every()와 화살표 함수 활용 연습]</span><br>
+<span style="font-size:90%; font-weight:bold">[ every()와 화살표 함수 활용 연습]</span>
 
 <img src="/images/2024-04-07-method_array2/image-20240410153003393.png" alt="image-20240410153003393" style="zoom:50%;" />
 
@@ -116,17 +114,17 @@ typora-root-url: ../
 
 <br>
 
-#### some()<br>
+#### some()
 
 
 
-<span style="font-size:85%">배열 요소 중 하나 또는 일부가 테스트를 통과하는지의 여부를 판단</span>
+: <span style="font-size:85%">배열 요소 중 하나 또는 일부가 테스트를 통과하는지의 여부를 판단</span>
 
 <span style="font-size:85%; color:orangered">배열 중 참인 요소가 하나 이상이면 참을 반환</span>
 
 <br>
 
-**<span style="font-size:90%">[ some()와 화살표 함수 활용 연습]</span>**<br>
+**<span style="font-size:90%">[ some()와 화살표 함수 활용 연습]</span>**
 
 <img src="/images/2024-04-07-method_array2/image-20240410153655805.png" alt="image-20240410153655805" style="zoom:50%;" />
 
@@ -150,7 +148,9 @@ typora-root-url: ../
 
 
 
->  #### reduce()<br>
+
+
+> #### reduce()
 
 
 
@@ -180,7 +180,7 @@ typora-root-url: ../
 
 <img src="/images/2024-04-07-method_array2/image-20240410174335185.png" alt="image-20240410174335185" style="zoom:50%;" />
 
-<span style="font-size:85%">=> 처음에는 500이 total에 인수로, 700이 price에 인수로 전달되어 둘을 합한다</span>
+<span style="font-size:85%">=> 처음에는 500이 total에, 700이 price에 인수로 전달되어 둘을 합한다</span>
 
 <span style="font-size:85%"> 두번째 순환에서 500과 700을 합한 1200이 total로, 450이 price가 되어 둘을 합하며</span>
 
