@@ -8,7 +8,11 @@ typora-root-url: ../
 
 
 
-### 구조 분해  distructure
+
+
+## 구조 분해  distructure
+
+
 
 <span style = "font-size:85%">: 주로 배열이나 객체의 속성을 해체해서 원하는 값을 선정해 복사한 후 별도의 변수에 저장한다</span>
 

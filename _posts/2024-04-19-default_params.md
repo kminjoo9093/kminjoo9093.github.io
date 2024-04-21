@@ -8,9 +8,9 @@ typora-root-url: ../
 
 
 
->  #### default params   기본 매개변수
+## default params   기본 매개변수
 
-<br>
+
 
 <span style="font-size:85%">함수를 쓸 때 매개변수가 없으면 디폴트 매개변수를 받는다</span>
 

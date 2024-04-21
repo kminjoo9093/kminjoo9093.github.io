@@ -8,7 +8,7 @@ typora-root-url: ../
 
 
 
- #### 인수 객체   **' arguments '** 
+## 인수 객체   **' arguments '** 
 
 
 
@@ -38,9 +38,11 @@ typora-root-url: ../
 
 <br>
 
+<br>
 
 
-####  ' ... '  나머지 매개변수 ( rest params )
+
+## ' ... '  나머지 매개변수 ( rest params )
 
 
 
@@ -86,7 +88,7 @@ typora-root-url: ../
 
 <span style="font-size:85%">=> 함수에 실제 배열을 넣어 reduce메서드를 실행한 것과 결과가 동일</span>
 
-
+<br>
 
 **<span style="font-size:85%; color:orangered">[ 주의 ]</span>**
 
@@ -107,8 +109,6 @@ typora-root-url: ../
 <span style="font-size:85%">=> 'minjoo', 'suhyun'은 각각 첫 번째, 두 번째 매개변수에 들어가고</span>
 
 <span style="font-size:85%">=> 나머지  'mina', 'joe', 'mike' 인수들는 ...everyoneElse로 인해 한데 모아짐</span>
-
-<br>
 
 <br>
 
