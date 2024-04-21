@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[자바스크립트_개념정리] While 루프"
+title: "[자바스크립트_개념정리] While 루프와 break, continue"
 typora-root-url: ../
 ---
 
@@ -114,5 +114,25 @@ while ( 조건 ) {
 
 <br>
 
+<br>
 
+<br>
+
+#### continue 건너뛰기
+
+<span style="font-size:80%">반복문이 특정 조건에서만 실행되기 원할 때</span>
+
+<span style="font-size:80%"> continue 문을 넣어 이후의 코드를 건너뛰게 할 수 있다</span>
+
+
+
+<br>
+
+<span style="font-size:85%; font-weight:bold">[ while 반복문에서 continue 사용 ]</span>
+
+<img src="/images/2024-03-07-loops_while/image-20240417192942177.png" alt="image-20240417192942177" style="zoom:50%;" />
+
+<span style="font-size:80%">=> 루프가 진행될 때 while문 안의 조건이 참인 경우 실행되지 않고 건너뛴다</span>
+
+<span style="font-size:80%">=> 짝수인 경우 실행되지 않고 건너뜀으로 홀수만 출력된다</span>
 
