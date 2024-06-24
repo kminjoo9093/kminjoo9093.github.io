@@ -6,17 +6,19 @@ typora-root-url: ../
 
 
 
+<br>
+
+<br>
+
+### 프로토타입 prototype
 
 
-#### 프로토타입  prototype
 
+ <span style="font-size:85%; line-height:1.2;">자바스크립트 객체가 서로 기능을 상속하는 방식의 매커니즘</span>
 
+<span style="font-size:85%;  line-height:1.2;">모든 자바스크립트 객체는 프로토타입 객체를 자동으로 가지게 되는데 이를 통해 다른 객체의 메소드와 속성을 상속받을 수 있다</span>
 
- <span style="font-size:85%">자바스크립트 객체가 서로 기능을 상속하는 방식의 매커니즘</span>
-
-<span style="font-size:85%">모든 자바스크립트 객체는 프로토타입 객체를 자동으로 가지게 되는데 이를 통해 다른 객체의 메소드와 속성을 상속받을 수 있다</span>
-
-<span style="font-size:85%">`Object.prototype`은 모든 JavaScript 객체의 최상위 프로토타입 체인의 일부이다</span>
+<span style="font-size:85% line-height:1.2;">`Object.prototype`은 모든 JavaScript 객체의 최상위 프로토타입 체인의 일부이다</span>
 
 <br>
 
