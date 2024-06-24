@@ -10,7 +10,7 @@ typora-root-url: ../
 
 
 
-## 구조 분해  distructure
+## 구조 분해 할당  distructuring assignment
 
 
 
@@ -30,10 +30,10 @@ typora-root-url: ../
 
 ```javascript
 const a = [1, 2, 3, 4];
-const [b, c] = a;  //=> a배열을 구조 분해
+const [x, y] = a;  //=> a배열을 구조 분해
 
-console.log(b)  //1
-console.log(c)  //2
+console.log(x)  //1
+console.log(y)  //2
 ```
 
 
@@ -48,7 +48,37 @@ console.log(c)  //2
 
 <span style = "font-size:85%">=> 두 번째 줄에서 ' = ' 좌측의 대괄호는 raceResults 배열에서 분해한 각 요소를 어떻게 지칭할지 결정한다</span>
 
-<span style = "font-size:85%">=> 배열 요소는 순서대로 gold, silver, bronze의 값이 되고 나머지 'sera', 'tomi'는 나머지 매개변수 everyoneElse에 모여 저장됨</span>
+<span style = "font-size:85%">=> 배열 요소는 순서대로 gold, silver, bronze의 값이 된다 ( gold = raceResults[0] , silver = raceResults[1] ... ) </span>
+
+<span style = "font-size:85%">=> 나머지 'sera', 'tomi'는 나머지 매개변수 everyoneElse에 모여 저장됨</span>
+
+<br><br>
+
+<span style = "font-size:90%; font-weight:bold">해당하는 값이 없을 때에는 undefined가 할당되는데 기본값을 설정해 이를 방지할 수 있다</span>
+
+![image-20240525181409553](/images/2024-04-21-distructure/image-20240525181409553.png)
+
+<br>
+
+<span style = "font-size:90%; font-weight:bold">할당된 값을 서로 바꿀 때 새로운 변수를 만들지 않아도 된다</span>
+
+```javascript
+// 구조 분해 할당을 이용하지 않으면 임시의 변수 z를 선언해야 한다
+let x = 1;
+let y = 2;
+let z = x;
+x = y;
+y = z;
+
+// 구조 분해 할당 이용
+let x = 1;
+let y = 2;
+[x, y] = [y, x];
+console.log(x);		//2
+consnole.log(y);	//1
+```
+
+
 
 
 
