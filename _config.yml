@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "aqua" # "air", "default", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -20,7 +20,7 @@ title: "minjoo"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "minjoo"
-description: "An amazing website."
+description: "웹 퍼블리셔 공부자료 기록"
 url: "https://kminjoo9093.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,8 +105,8 @@ analytics:
 author:
   name: "Minjoo Kang"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  bio: "I’m gonna be an awesome professional"
+  # location: "Somewhere"
   email:
   links:
     - label: "Email"
