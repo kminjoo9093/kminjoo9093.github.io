@@ -19,16 +19,16 @@ foo:
 
 # main links
 main:
-  - title: "Category"
-    url: /categories/
-  # - title: "About"
-  #   url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Terms &amp; Privacy Policy"
-  #   url: /terms/
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Sample Posts"
+    url: /year-archive/
+  - title: "Sample Collections"
+    url: /collection-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
 
 # documentation links
 docs:
